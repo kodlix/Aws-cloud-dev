@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqspublisher", "sqspublisher\sqspublisher.csproj", "{35C3B107-A9CF-40C6-9E0C-E3D68A88BC2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sqs", "sqs", "{AC63CCDF-A1C9-46D4-B4A9-069EE8E77400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqsconsumer", "sqsconsumer\sqsconsumer.csproj", "{76717AFD-1D63-4DAD-9A67-174E7CDBB060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C3B107-A9CF-40C6-9E0C-E3D68A88BC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C3B107-A9CF-40C6-9E0C-E3D68A88BC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C3B107-A9CF-40C6-9E0C-E3D68A88BC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C3B107-A9CF-40C6-9E0C-E3D68A88BC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76717AFD-1D63-4DAD-9A67-174E7CDBB060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76717AFD-1D63-4DAD-9A67-174E7CDBB060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76717AFD-1D63-4DAD-9A67-174E7CDBB060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76717AFD-1D63-4DAD-9A67-174E7CDBB060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35C3B107-A9CF-40C6-9E0C-E3D68A88BC2C} = {AC63CCDF-A1C9-46D4-B4A9-069EE8E77400}
+		{76717AFD-1D63-4DAD-9A67-174E7CDBB060} = {AC63CCDF-A1C9-46D4-B4A9-069EE8E77400}
+	EndGlobalSection
+EndGlobal

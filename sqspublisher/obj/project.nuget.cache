@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eCKAqG3N8qDFQ6rfkAyAQtwi5rI8ovwhbjgbN91gFW4tzjc5dqDRDXBI0fuInXE84V9dF41bc3CerTnIQ3Dt4A==",
+  "success": true,
+  "projectFilePath": "/Users/johnsoniyida/Dev/AWSCloudDevelopment/sqspublisher/sqspublisher.csproj",
+  "expectedPackageFiles": [
+    "/Users/johnsoniyida/.nuget/packages/awssdk.core/3.7.104.4/awssdk.core.3.7.104.4.nupkg.sha512",
+    "/Users/johnsoniyida/.nuget/packages/awssdk.sqs/3.7.100.69/awssdk.sqs.3.7.100.69.nupkg.sha512"
+  ],
+  "logs": []
+}
