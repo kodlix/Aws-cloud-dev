@@ -1,8 +1,9 @@
-using Mediator.Net.Contracts;
+using MediatR;
+using IRequest = Mediator.Net.Contracts.IRequest;
 
 namespace Customers.Consumer.Messages;
 
-public class CustomerCreated : IRequest
+public class CustomerCreated : ISqsMessage
 {
     public required Guid Id { get; set; }
     public required string GitHubUsername { get; init; } = default!;
@@ -15,7 +16,7 @@ public class CustomerCreated : IRequest
 }
 
 
-public class CustomerUpdated : IRequest
+public class CustomerUpdated :  ISqsMessage
 {
     public required Guid Id { get; set; }
     public required string GitHubUsername { get; init; } = default!;
@@ -27,7 +28,7 @@ public class CustomerUpdated : IRequest
     public required DateTime DateOfBirth { get; init; } = default!;
 }
 
-public class CustomerDeleted : IRequest
+public class CustomerDeleted :  ISqsMessage
 {
     public required Guid Id { get; set; }
 }

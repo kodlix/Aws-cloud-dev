@@ -9,6 +9,7 @@
     <ItemGroup>
       <PackageReference Include="AWSSDK.SQS" Version="3.7.100.70" />
       <PackageReference Include="Mediator.Net.MicrosoftDependencyInjection" Version="4.7.0" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     </ItemGroup>
 
 </Project>
